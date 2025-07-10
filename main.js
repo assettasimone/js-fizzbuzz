@@ -8,8 +8,11 @@ for (let i = 1; i <= 100; i++) {
     message = '';
     /* controlliamo tramite un if se il numero è divisibile per 3 */
     if (i % 3 == 0) {
+        /* aggiungiamo alla variabile messaggio fizz */
         message = message + 'Fizz';
+        /* se è divisibile per tre è anche divisibile per 5 */
         if (i % 5 == 0) {
+            /* concateniamo il messaggio */
             message = message + 'Buzz';
         }
 
