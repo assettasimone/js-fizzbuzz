@@ -9,6 +9,10 @@ for (let i = 1; i <= 100; i++) {
     /* controlliamo tramite un if se il numero è divisibile per 3 */
     if (i % 3 == 0) {
         message = message + 'Fizz';
+        if (i % 5 == 0) {
+            message = message + 'Buzz';
+        }
+
     } else if (i % 5 == 0) {
         message = message + 'Buzz';
     } else {
